@@ -1,0 +1,234 @@
+  /**********   Class given to the forms  ******/
+
+
+   .b label{
+			display:block;
+			padding: 5px 0 0 5px;	
+	 }
+
+
+  /*   Class given to the input type text		*/
+		.a{
+			padding: 10px;
+			width: 100%;
+			border: 1px solid #68bf3f;
+			background-color:rgba( 239, 241, 232, 0.702 );
+		}
+		.a:focus,.bt:focus{
+			border:1px solid black;
+			outline: none;
+			
+		}
+
+
+/*   ************************Cart Icon on Home page********************************/
+
+		.cart{
+             font-size: 100%;
+			 padding-top: 5px;
+				}
+	
+
+/*        Class given to buttons      */
+		
+		.bt{
+			width: 50%;
+			padding: 10px;
+			background-color: #68bf3f;
+			border: 1px solid #4b6345;
+			font-size: 140%;
+		}
+		
+		.bt:hover{
+			background-color: rgba( 93, 173, 70, 1);
+			border: 1px solid #4b6345;
+		}
+
+
+/*********************Classs given to input type links similar to login and sign in links***************/
+		  
+		  .l{
+			  background-color:#68bf3f;
+			  font-family:arial;
+			  font-size:130%;
+			  display: inline-block;
+			  margin: 5px 2px 0 0;
+              padding: 4px;
+			  color: black;
+			  border: 1px solid #58801e;
+		  }
+		  
+		  .l:hover{
+			  background-color: rgba( 93, 173, 70, 1);
+			  color:white;
+		  }
+		  
+
+
+/***************************boot strap thumblail classs given to every porduct items******************************/
+
+		  
+		  textarea{
+		  	resize: none;
+		  }
+
+
+		  
+/*************************************Class given to the user icon on login******************************		  */
+		  .user{
+		  color:white;
+		  padding: 12px 0;
+		  font-size: 94%;
+	      margin-left: -10px;
+	      
+		  }
+		  .user:hover{
+		  	color:#68bf3f;
+		  }
+		  
+		  
+
+
+
+
+
+/*****************************************	  HOME SEARCH BAR   ********************************************/
+		   
+		  
+		  .searchBox,.searchButton{
+		  	padding:8px 23px;
+			outline: none;
+			border:none;
+			display:inline;
+			margin:5px 0;
+			
+		  }
+		  
+		  .searchBox{
+            margin-right: -4px;
+			width: 75%;
+		  }
+		
+		  .searchButton{
+/*		  	margin: 0 20px 0 0;*/
+            background-color:#68bf3f;
+			font-weight: bold;
+			  width: 25%;
+		  }
+		  
+		  .searchButton:hover{
+            background-color: rgba( 93, 173, 70, 1);
+		  }
+		  
+
+
+
+/***********************************Up arrow on every page*******************************************/
+
+		  #point{
+		  	color:#3f747d;
+		    position: fixed;
+			bottom:6%;
+			right:3%;
+		  }
+
+
+
+
+
+/******************************* link to show all ptoduct of that Category*******************************/
+		  .moreLink{
+		     margin-left: 20px;
+			font-size: 120%;
+			  font-weight: bold;
+			
+		  }
+		  .moreLink:hover{
+		  
+		    color:#1e3a6b;
+		  }
+		  
+
+
+/**************class given to the category display with three items***************************/
+       .index_cat{
+	   	   padding:10px 15px;
+		   margin:10px;
+		   background-color: white;
+		   
+	   }
+	   
+       .thumbnail {
+	   	  margin: 0 -5px 15px -10px;
+		   padding: 10px;
+		 }
+         .thumbnail img:hover{
+		  	transform: scale(1.06);
+		  }
+      
+	   
+	   .thumbnail img{
+	   	  height: 300px;
+		 }
+	   
+	   .thumbnail:hover{
+	   	box-shadow: 7px 4px 25px rgba( 201, 207, 179, 0.702 );
+	   }
+
+
+/*********************Class for product details in the item page******************************888*/
+    
+	 .details{
+		padding: 10px;
+		font-family: verdana;
+		border: 1px solid #68bf3f;
+		margin-top: 10px;
+
+	  }
+
+/*******************************************   ITEM PAGE CSS           *****************************************/
+
+.itemIcon{
+	margin-top:23px;
+	padding:10px;
+	border:2px solid #a07777;
+	border-radius:50%;
+}
+
+.itemComment{
+	
+	padding: 5px 10px 10px 0;
+	margin-bottom: 6px;
+	background-color: white;
+	border: 1px solid #c9bfbf;
+	border-radius: 4px;
+	
+	
+	
+}
+
+@media screen and (max-width :00px){
+	
+	body{
+		
+		padding-top:300px;
+	}
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
